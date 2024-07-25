@@ -1,4 +1,28 @@
-baseURL: https://example.org/
-languageCode: en-us
-title: My New Hugo Site
+baseURL: 'https://diywithtom.com/'
+languageCode: 'en-us'
+title: 'DIY with Tom'
 theme: 'PaperMod'
+
+params:
+  profileMode:
+    enabled: true
+    # title: "Hi there 👋"
+    subtitle: "fixing my own problems, maybe you have them too"
+    imageUrl: "images/profile.jpg"  # optional
+    imageTitle: "30-something being eaten by a T-rex skeleton"  # optional
+    imageWidth: 120  # custom size
+    imageHeight: 120  # custom size
+
+    buttons:
+      - name: "Blog"
+        url: "/blog"
+      - name: "About"
+        url: "/about"
+
+  socialIcons:
+    - name: "email"
+      url: "mailto:hello@diywithtom.com"
+    - name: "github"
+      url: "https://github.com/etoorgedmot"
+    - name: "buymeacoffee"
+      url: "https://buymeacoffee.com/tomdegr"

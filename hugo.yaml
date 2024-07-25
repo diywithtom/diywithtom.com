@@ -1,12 +1,12 @@
 baseURL: 'https://diywithtom.com/'
 languageCode: 'en-us'
-title: 'DIY with Tom'
+title: 'diywithtom'
 theme: 'PaperMod'
 
 params:
   profileMode:
     enabled: true
-    # title: "Hi there 👋"
+    title: "Hi there 👋"
     subtitle: "fixing my own problems, maybe you have them too"
     imageUrl: "images/profile.jpg"  # optional
     imageTitle: "30-something being eaten by a T-rex skeleton"  # optional
@@ -23,6 +23,6 @@ params:
     - name: "email"
       url: "mailto:hello@diywithtom.com"
     - name: "github"
-      url: "https://github.com/etoorgedmot"
+      url: "https://github.com/diywithtom"
     - name: "buymeacoffee"
-      url: "https://buymeacoffee.com/tomdegr"
+      url: "https://www.buymeacoffee.com/diywithtom"
